@@ -21,11 +21,11 @@ if __name__ == '__main__':
 
     print(device)
 
-    whole_data_path = 'data/parliament/digitoday.2014.txt'
-    train_data_path = 'data/parliament/digitoday.2014.train.txt'
-    dev_data_path = 'data/parliament/digitoday.2014.dev.txt'
-    test_data_path = 'data/parliament/parliament.txt'
-    wiki_data_path = 'data/parliament/wikipedia.test.txt'
+    whole_data_path = 'data/parliament/digitoday/digitoday.2014.txt'
+    train_data_path = 'data/parliament/digitoday/digitoday.2014.train.txt'
+    dev_data_path = 'data/parliament/digitoday/digitoday.2014.dev.txt'
+    test_data_path = 'data/parliament/parliament_data/formatted/lingsoft_annotated.txt'
+    wiki_data_path = 'data/parliament/digitoday/wikipedia.test.txt'
 
     whole_data_morph_path = 'utils/subword_segmentation/output/segmented/parliament_segmented.txt'
 
